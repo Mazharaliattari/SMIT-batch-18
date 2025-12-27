@@ -151,9 +151,31 @@
 // }
 
 // //q 9
-// var givenNumber = +prompt("cheak your given number is odd or even")
-// if (givenNumber %2 === 0){
+var givenNumber = +prompt("cheak your given number is odd or even")
+var isEven = givenNumber % 2 === 0
+if (isEven) {
+    alert("Your given number is even")
+} else {
+    alert("Your given number is odd")
+}
+//q 10
+var temperature = +prompt("what is temerature your city")
+if (temperature > 40) {
+    alert("Its too hot outside")
+} else if (temperature > 30) {
+    alert("The weather today is normal")
+} else if (temperature > 20) {
+    alert("Todays water is cool")
+} else if (temperature > 10) {
+    alert("OMG! Todays weather is so cool")
+}
+//q 11
+var firstNumber = +prompt("Enter the 1st number for calculation")
+var secondNumber = +prompt("Enter the 2nd number for calculation")
+var operator = prompt("enter the opeator")
 
-// }
+if (operator === "+") {
+    alert("calculation" + firstNumber + secondNumber)
+}else if (operator === "-"){
 
-
+}
